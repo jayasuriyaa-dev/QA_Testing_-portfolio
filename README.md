@@ -49,3 +49,28 @@ Captured and attached a 17-second screen recording to provide undeniable visual 
 
 https://github.com/user-attachments/assets/e3045f1b-aa6f-4188-8341-a97e20c4075d
 
+Project 3: API Backend Infiltration & Automated Regression Testing
+Target Environment: JSONPlaceholder (REST API)
+Testing Focus: Backend API Validation, JSON Payload Architecture, Status Code Verification, JavaScript Automation.
+
+Execution Details:
+
+Bypassed the UI entirely to test client-server communication using Postman.
+
+Executed GET requests to retrieve and validate nested JSON data structures, successfully verifying 200 OK status codes.
+
+Engineered and injected custom JSON payloads via POST requests to simulate active data creation on the backend, validating 201 Created server confirmations.
+
+Transitioned from manual execution to Automation by writing custom JavaScript test scripts (pm.test) directly inside Postman.
+
+Built automated Regression sweeps with assertion logic to mathematically verify server responses, including designing deliberate tripwires to successfully catch 404 Not Found errors.
+Evidence 1: API Security Testing - Missing Auth Token (401 Unauthorized)
+<img width="1600" height="900" alt="401 unauthorized Get" src="https://github.com/user-attachments/assets/8ded1d0a-d517-4a6c-a04c-5ba753691d94" />
+Evidence 2: JavaScript Automated Regression Sweep (FAILED)
+<img width="1600" height="900" alt="201 Failed" src="https://github.com/user-attachments/assets/14ab6638-311d-44e0-9642-ba5b7759f0a2" />
+Evidence 3: Server Data Injection - POST Request (201 Created)
+<img width="1600" height="900" alt="201 Created post" src="https://github.com/user-attachments/assets/2f63d541-2602-4179-812c-ca9aadc4f086" />
+Evidence 4: JavaScript Automated Regression Sweep (PASSED)
+<img width="1600" height="900" alt="200 passed " src="https://github.com/user-attachments/assets/b0f5db68-fbf6-4b5e-b7b9-887190a488a7" />
+Evidence 5: Bypassing the UI - GET Request (200 OK)
+<img width="1600" height="900" alt="200 created Get " src="https://github.com/user-attachments/assets/4faf45f6-0458-42cc-aa1d-4100a3ddc9f2" />
